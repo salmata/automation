@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="62.0"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="browserName" value="chrome"/>
+    <!-- <parameter name="os" value="mac"/>-->
+    <parameter name="url" value="http://target.com"/>
+    <!--http://automationpractice.com-->
+
+    <test name = "Ecommerc Home">
+
+        <classes>
+
+
+        </classes>
+
+    </test>
+</suite>
